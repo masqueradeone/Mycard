@@ -2,26 +2,28 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
+  <!-- 设置网页的字符集为UTF-8 -->
+  <meta charset="UTF-8"> 
+  <!-- 设置网页的浏览器兼容性为最新模式 -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- 设置网页的视口为设备宽度和初始缩放比例为1 -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>vCard - Personal Portfolio</title>
+  <!-- 设置网页的标题为mads’s personal，网页标题用英文 -->
+  <title>mads’s personal</title>
 
-  <!--
-    - favicon
-  -->
+
+   <!-- 引入网站图标（favicon）网页标签最左 -->
   <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
 
-  <!--
-    - custom css link
-  -->
+
+  <!-- 引入自定义样式表（css）文件 -->
   <link rel="stylesheet" href="./assets/css/style.css">
 
-  <!--
-    - google font link
-  -->
+ 
+  <!-- 预连接谷歌字体服务器 -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <!-- 引入谷歌字体Poppins，不同粗细（weight）可选 -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 
@@ -42,13 +44,13 @@
       <div class="sidebar-info">
 
         <figure class="avatar-box">
-          <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
+          <img src="./assets/images/my-avatar.png" alt="mads" width="80">                                <!-- 待修改为自定义头像 -->
         </figure>
 
         <div class="info-content">
-          <h1 class="name" title="Richard hanrick">Richard hanrick</h1>
+          <h1 class="name" title="masquerade">迈斯坤先生</h1>
 
-          <p class="title">Web developer</p>
+          <p class="title">个人网站</p>
         </div>
 
         <button class="info_more-btn" data-sidebar-btn>
@@ -68,13 +70,13 @@
           <li class="contact-item">
 
             <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
+              <ion-icon name="logo-wechat"></ion-icon>
             </div>
 
             <div class="contact-info">
-              <p class="contact-title">Email</p>
+              <p class="contact-title">WeChat</p>
 
-              <a href="mailto:richard@example.com" class="contact-link">richard@example.com</a>
+              <a href="待修改" class="contact-link">masquerademe</a>                         <!-- 待修改为微信添加好友链接 -->
             </div>
 
           </li>
@@ -114,9 +116,9 @@
             </div>
 
             <div class="contact-info">
-              <p class="contact-title">Location</p>
+              <p class="contact-title">所在城市</p>
 
-              <address>Sacramento, California, USA</address>
+              <address>YUBE,ChongQing,China</address>
             </div>
 
           </li>
@@ -170,23 +172,23 @@
         <ul class="navbar-list">
 
           <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
+            <button class="navbar-link  active" data-nav-link>主页</button>
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Resume</button>
+            <button class="navbar-link" data-nav-link>经历</button>
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
+            <button class="navbar-link" data-nav-link>项目</button>
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Blog</button>
+            <button class="navbar-link" data-nav-link>博客</button>
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Contact</button>
+            <button class="navbar-link" data-nav-link>联系</button>
           </li>
 
         </ul>
@@ -204,22 +206,21 @@
       <article class="about  active" data-page="about">
 
         <header>
-          <h2 class="h2 article-title">About me</h2>
+          <h2 class="h2 article-title">迈斯坤先生</h2>
         </header>
 
         <section class="about-text">
           <p>
-            I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media.
-            I enjoy
-            turning complex problems into simple, beautiful and intuitive designs.
+            在我有限的人生经历当中，逐渐地开始意识一成不变对我们来说并不意味褒奖，无论它来自于何种形态。
+            我们也不得不承认一个关于天赋的秘密，好像我们大多数人都高估了它所能释放出的能量，
+            拥有创造力为有限的人生注入新鲜血液
           </p>
 
           <p>
-            My job is to build your website so that it is functional and user-friendly but at the same time attractive.
-            Moreover, I
-            add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring
-            across your
-            message and identity in the most creative way. I created web design for many famous brand companies.
+            很高兴见到你：来访者<br />
+            你可以称呼我为迈斯坤、老迈或者白猫（这取决于你是怎样认识我的），
+            在我们有限的交流中，我时常告诫自己“轻松的氛围”是愉快相处的基础。
+            当然，我也相信我们相处的时间越近你越是能够感受到如此的。
           </p>
         </section>
 
@@ -230,7 +231,7 @@
 
         <section class="service">
 
-          <h3 class="h3 service-title">What i'm doing</h3>
+          <h3 class="h3 service-title">我能为你做什么？</h3>
 
           <ul class="service-list">
 
@@ -242,10 +243,11 @@
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web design</h4>
+                <h4 class="h4 service-item-title">谈论有趣的话题</h4>
 
                 <p class="service-item-text">
-                  The most modern and high-quality design made at a professional level.
+                  你有一些思考和疑问希望与人交流分享，那可算找对人了，我很高兴能够与你一同去探讨它们<br />
+                  哲学思辨？历史隐秘？科技成果？前沿科学？也许我可以作为好的倾听者？
                 </p>
               </div>
 
@@ -258,10 +260,11 @@
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web development</h4>
+                <h4 class="h4 service-item-title">协作一些项目</h4>
 
                 <p class="service-item-text">
-                  High-quality development of sites at the professional level.
+                 有个不错的点子，想要去实现它们，如果你需要协作对象，请优先考虑我：这是一个爱折腾的男人<br />
+                 相信我，你会爱死这个合作伙伴的
                 </p>
               </div>
 
@@ -274,10 +277,11 @@
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Mobile apps</h4>
+                <h4 class="h4 service-item-title">无聊的人生</h4>
 
                 <p class="service-item-text">
-                  Professional development of applications for iOS and Android.
+                  当你感到人生无比的枯燥，空有大把的时间去消磨，被工作折磨得筋疲力尽？<br />
+                  请联系我，这里有丰富的项目和活动，或许能够改变些什么
                 </p>
               </div>
 
@@ -290,10 +294,11 @@
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Photography</h4>
+                <h4 class="h4 service-item-title">提升某些能力</h4>
 
                 <p class="service-item-text">
-                  I make high-quality photos of any category at a professional level.
+                  这应该谈到的是自我教育，我有一些有趣的项目，无论是认证电台还是学习python
+                  总有适合你的，如果你有新的想法，欢迎通过微信或者邮件联系我
                 </p>
               </div>
 
@@ -305,12 +310,12 @@
 
 
         <!--
-          - testimonials
+          - 团体项目（项目推荐）
         -->
 
         <section class="testimonials">
 
-          <h3 class="h3 testimonials-title">Testimonials</h3>
+          <h3 class="h3 testimonials-title">火爆项目前瞻</h3>
 
           <ul class="testimonials-list has-scrollbar">
 
@@ -318,10 +323,10 @@
               <div class="content-card" data-testimonials-item>
 
                 <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                  <img src="./assets/images/avatar-1.png" alt="zhimochangge" width="60" data-testimonials-avatar>
                 </figure>
 
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>执墨长歌</h4>
 
                 <div class="testimonials-text" data-testimonials-text>
                   <p>
@@ -408,7 +413,7 @@
 
 
         <!--
-          - testimonials modal
+          - 团队项目弹窗
         -->
 
         <div class="modal-container" data-modal-container>
@@ -453,7 +458,7 @@
 
 
         <!--
-          - clients
+          - 团队成员
         -->
 
         <section class="clients">
