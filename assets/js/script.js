@@ -27,6 +27,8 @@ const modalImg = document.querySelector("[data-modal-img]");
 const modalTitle = document.querySelector("[data-modal-title]");
 const modalText = document.querySelector("[data-modal-text]");
 const modalTime = document.querySelector("[data-modal-time]");
+const modalWeb = document.querySelector("[data-modal-web]");
+const modalOpen = document.querySelector("[data-modal-web-open]");
 
 // modal toggle function
 const testimonialsModalFunc = function () {
@@ -44,7 +46,8 @@ for (let i = 0; i < testimonialsItem.length; i++) {
     modalTitle.innerHTML = this.querySelector("[data-testimonials-title]").innerHTML;
     modalText.innerHTML = this.querySelector("[data-testimonials-text]").innerHTML;
     modalTime.innerHTML = this.querySelector("[data-testimonials-time]").innerHTML;
-
+    modalWeb.src = this.querySelector("[data-testimonials-web]").innerHTML;
+    modalWeb.style.display = this.querySelector("[data-testimonials-web-open]").innerHTML;
     testimonialsModalFunc();
 
   });
