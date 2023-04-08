@@ -1588,10 +1588,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .testimonials-modal {
     gap: 35px;
-    min-height: 680px;
-    min-width: 680px;
-    max-height: 80%;
-    max-width: 90%;
+    max-width: 680px;
   }
 
   .modal-avatar-box img { width: 80px; }
